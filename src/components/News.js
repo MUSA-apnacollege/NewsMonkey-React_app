@@ -12,7 +12,7 @@ class News extends Component {
   };
 
   pageSize = 5; // Number of articles per page
-  apiKey = "be1cb35ea6b1416d88cefaea9c8656f4"; // Your API Key
+  // API
 
   // Fetch articles based on current page and category
   fetchArticles = async () => {
